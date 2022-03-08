@@ -1,10 +1,18 @@
-import logo from './logo.svg';
+import {Container} from 'react-bootstrap'
 import './App.css';
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      dlakfjg
+      <Header/>
+      <main className="py-3">
+          <Container>
+              <h1>Test text</h1>
+          </Container>
+      </main>
+      <Footer/>
     </div>
   );
 }
