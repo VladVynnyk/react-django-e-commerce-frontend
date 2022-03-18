@@ -21,3 +21,5 @@ const listProducts = () => async (dispatch) => {
         })
     }
 }
+
+export default listProducts
